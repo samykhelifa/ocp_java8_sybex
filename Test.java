@@ -8,6 +8,6 @@ public class Test  {
       //   FileSystem fs = FileSystems.getDefault();
           
           System.out.println(f.exists());
-          System.out.println(System.getProperties());
+          System.out.println(System.getProperties().propertyNames());
 }
 }
